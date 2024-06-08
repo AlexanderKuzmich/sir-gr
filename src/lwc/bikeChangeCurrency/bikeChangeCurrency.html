@@ -1,0 +1,24 @@
+<template>
+    <lightning-quick-action-panel header = {labels.bikeCurrency}>
+        <template if:true = {isShowSpinner}>
+            <div class = "spinner">
+                <lightning-spinner alternative-text = "Loading"></lightning-spinner>
+            </div>
+        </template>
+        <div style = "max-width: 50%; margin: auto;">
+            <lightning-combobox
+                    label       = "New Currency"
+                    variant     = "label-inline"
+                    value       = {currentCurrency}
+                    placeholder = "Select Progress"
+                    options     = {options}
+                    onchange    = {handleChange}
+            ></lightning-combobox>
+        </div>
+        <lightning-button variant   = "brand"
+                          class     = "slds-m-top_large slds-float_right"
+                          label     = {labels.updateCurrency}
+                          type      = "submit"
+                          onclick   = {handleChangeCurrencyButton}></lightning-button>
+    </lightning-quick-action-panel>
+</template>

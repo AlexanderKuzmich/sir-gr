@@ -1,3 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Bike_Currency</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>LWC Bike Currency</shortDescription>
+        <value>LWC Bike Currency</value>
+    </labels>
+    <labels>
+        <fullName>Bike_Currency_Updated</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Bike Currency Updated</shortDescription>
+        <value>Bike Currency Updated</value>
+    </labels>
+    <labels>
+        <fullName>Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error!</shortDescription>
+        <value>Error!</value>
+    </labels>
+    <labels>
+        <fullName>Error_Occurred</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error Occurred, please contact System Administrator</shortDescription>
+        <value>Error Occurred, please contact System Administrator</value>
+    </labels>
+    <labels>
+        <fullName>Success</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Success</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>Update_Currency</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Update Currency</shortDescription>
+        <value>Update Currency</value>
+    </labels>
+</CustomLabels>
